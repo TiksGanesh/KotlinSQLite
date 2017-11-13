@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/alertEditTextUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/alertEditTextUserMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:hint="@string/mobile"
+        android:inputType="number" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/ButtonAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@color/colorAccent"
+        android:text="@string/add_user"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/ButtonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@color/colorPrimary"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
